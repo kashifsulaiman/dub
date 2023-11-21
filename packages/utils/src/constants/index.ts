@@ -33,10 +33,10 @@ export const FADE_IN_ANIMATION_SETTINGS = {
 
 export const PAGINATION_LIMIT = 100;
 
-export const HOME_DOMAIN = "https://dub.co";
+export const HOME_DOMAIN = "https://sluger.io";
 
 export const APP_HOSTNAMES = new Set([
-  "app.dub.co",
+  "app.sluger.io",
   "preview.dub.co",
   "localhost:8888",
   "localhost",
@@ -75,17 +75,17 @@ export const ADMIN_HOSTNAMES = new Set([
 ]);
 
 export const DEFAULT_REDIRECTS = {
-  home: "https://dub.co",
-  dub: "https://dub.co",
-  signin: "https://app.dub.co/login",
-  login: "https://app.dub.co/login",
-  register: "https://app.dub.co/register",
-  signup: "https://app.dub.co/register",
-  app: "https://app.dub.co",
-  dashboard: "https://app.dub.co",
-  links: "https://app.dub.co/links",
-  settings: "https://app.dub.co/settings",
-  welcome: "https://app.dub.co/welcome",
+  home: "https://sluger.io",
+  dub: "https://sluger.io",
+  signin: "https://app.sluger.io/login",
+  login: "https://app.sluger.io/login",
+  register: "https://app.sluger.io/register",
+  signup: "https://app.sluger.io/register",
+  app: "https://app.sluger.io",
+  dashboard: "https://app.sluger.io",
+  links: "https://app.sluger.io/links",
+  settings: "https://app.sluger.io/settings",
+  welcome: "https://app.sluger.io/welcome",
   discord: "https://twitter.com/dubdotco", // placeholder for now
 };
 
@@ -122,7 +122,7 @@ export const DUB_DOMAINS = [
     slug: "dub.sh",
     verified: true,
     primary: true,
-    target: "https://dub.co",
+    target: "https://sluger.io",
     type: "redirect",
     placeholder: "https://dub.co/help/article/what-is-dub",
     clicks: 0,

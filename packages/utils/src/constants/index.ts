@@ -51,7 +51,7 @@ export const APP_DOMAIN =
 
 export const APP_DOMAIN_WITH_NGROK =
   process.env.NEXT_PUBLIC_VERCEL_ENV === "production"
-    ? "https://app.dub.co"
+    ? "https://sluger.io"
     : process.env.NEXT_PUBLIC_VERCEL_ENV === "preview"
     ? "https://preview.dub.co"
     : process.env.NGROK_URL;

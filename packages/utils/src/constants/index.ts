@@ -70,7 +70,7 @@ export const API_DOMAIN =
     : "http://api.localhost:8888";
 
 export const ADMIN_HOSTNAMES = new Set([
-  "admin.dub.co",
+  "admin.sluger.io",
   "admin.localhost:8888",
 ]);
 

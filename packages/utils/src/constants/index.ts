@@ -44,7 +44,7 @@ export const APP_HOSTNAMES = new Set([
 
 export const APP_DOMAIN =
   process.env.NEXT_PUBLIC_VERCEL_ENV === "production"
-    ? "https://app.dub.co"
+    ? "https://app.sluger.io"
     : process.env.NEXT_PUBLIC_VERCEL_ENV === "preview"
     ? "https://preview.dub.co"
     : "http://localhost:8888";
